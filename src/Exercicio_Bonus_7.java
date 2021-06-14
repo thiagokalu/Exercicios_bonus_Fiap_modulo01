@@ -16,7 +16,7 @@ public class Exercicio_Bonus_7 {
 		System.out.println("Tente advinhar o número secreto, digite seu chute e aperte enter:\n");
 	
 		chuteUsuario = leitor.nextInt();
-		
+			
 		while(chuteUsuario!=1238)
 		{
 		System.out.println("Você errou!!!\n tente novamente:");		
