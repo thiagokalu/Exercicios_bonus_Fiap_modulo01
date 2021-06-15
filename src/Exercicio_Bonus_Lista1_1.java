@@ -13,5 +13,6 @@ public class Exercicio_Bonus_Lista1_1 {
 		anoNascimento = leitor.nextInt();
 		resultado = 2021 - anoNascimento;
 		System.out.println("Você vai ter  " + resultado + " anos em 2021");
+		leitor.close();
 	}
 }

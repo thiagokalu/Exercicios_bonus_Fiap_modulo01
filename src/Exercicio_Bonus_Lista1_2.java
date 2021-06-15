@@ -17,6 +17,7 @@ public class Exercicio_Bonus_Lista1_2 {
 		duracaoFilmeHoras = duracaoFilmeMinutos / 60;
 		duracaoFilmeSegundos = duracaoFilmeMinutos * 60;
 		System.out.println("O Filme tem " + duracaoFilmeHoras + "horas e " + duracaoFilmeSegundos + " segundos");
+		leitor.close();
 	}
 
 }
