@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio_Bonus_2 {
+public class Exercicio_fixacao_2{
 
 	public static void main(String[] args) {
 		/* 2. Faça um algoritmo que calcule o valor da conta de luz de 
@@ -9,7 +9,8 @@ public class Exercicio_Bonus_2 {
 		Tipo de Cliente Valor do KW/h 
 		1 (Residência) 0,60 
 		2 (Comércio) 0,48 
-		3 (Indústria) 1,29 */
+		3 (Indústria) 1,29 
+		lista fixação**/
 		
 		Scanner leitor = new Scanner(System.in);
 		

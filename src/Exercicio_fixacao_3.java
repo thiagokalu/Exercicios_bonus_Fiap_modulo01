@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio_Bonus_3 {
+public class Exercicio_fixacao_3{
 
 	public static void main(String[] args) {
 		/* 3. Suponha que você esteja fazendo um concurso público. 
@@ -15,7 +15,8 @@ public class Exercicio_Bonus_3 {
 		
 		Além disso, se o candidato possuir menos de 40 anos de idade, 
 		terá direito a mais 100 pontos. Caso contrário, perderá 50 
-		pontos.*/
+		pontos.
+		lista fixação**/
 		
 		Scanner leitor = new Scanner (System.in);
 		

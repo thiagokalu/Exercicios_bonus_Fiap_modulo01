@@ -1,11 +1,12 @@
 import java.util.Scanner;
 
-public class Exercicio_Bonus_1 {
+public class Exercicio_fixacao_1 {
 
 	public static void main(String[] args) {
 		/*  Escrever um algoritmo para determinar o consumo médio de 
 		um automóvel sendo fornecida a distância total percorrida 
-		pelo automóvel e o total de combustível gasto. */
+		pelo automóvel e o total de combustível gasto. 
+		lista fixação*/
 
 		Scanner leitor = new Scanner(System.in);
 		double combustivelGasto, distanciaTotalPercorrida, consumoMedio;
