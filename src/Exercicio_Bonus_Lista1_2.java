@@ -9,16 +9,14 @@ public class Exercicio_Bonus_Lista1_2 {
 		 * duração desse filme em horas e em segundos.
 		 */
 	
-	
 		Scanner leitor = new Scanner(System.in);
-		double duracaoFilmeMinutos;
-		double duracaoFilmeHoras, duracaoFilmeSegundos;
+		double duracaoFilmeHoras, duracaoFilmeSegundos, duracaoFilmeMinutos;
 		System.out.println("Este programa irá transformar a duração de um filme de minutos para horas e segundos!");
 		System.out.println("Favor digitar a duração do filme em minutos:");	
 		duracaoFilmeMinutos = leitor.nextDouble();
 		duracaoFilmeHoras = duracaoFilmeMinutos / 60;
 		duracaoFilmeSegundos = duracaoFilmeMinutos * 60;
-		System.out.println("O Filme tem " + duracaoFilmeHoras + "horas e " + duracaoFilmeSegundos + "segundos");
+		System.out.println("O Filme tem " + duracaoFilmeHoras + "horas e " + duracaoFilmeSegundos + " segundos");
 	}
 
 }
