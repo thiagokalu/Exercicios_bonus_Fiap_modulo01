@@ -1,6 +1,8 @@
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
-public class Exercicio_Extra_02
+public class Exercicio_extra_2_com_array
 {	
 
 public static void main(String[] args) 
@@ -12,53 +14,62 @@ public static void main(String[] args)
 
     Scanner leitor = new Scanner (System.in);
 
-    int sexo=0, mulheres=0, homens=0, quantidade;
+    int sexo=0, mulheres=0, homens=0, quantidade=0;
 
-    double alturaInformada, maiorAltura=0, menorAltura=100000, mediaAlturaHomens=0, totalAlturaHomens=0;
+    double altura, mediaAlturaHomens=0, totalAlturaHomens=0;
+    double [] alturasArrayMulheres;
+    
+    alturasArrayMulheres = new double[quantidade];
+
 
     System.out.println("Este programa irá receber uma lista contendo a altura e o sexo de algumas pessoas. Com base na lista, o programa irá informar a maior e a menor altura do grupo, a media da altura dos homens e o numero de mulheres");
 
     System.out.println("Favor digitar a quantidade de pessoas nesta lista");
     quantidade = leitor.nextInt();      
 
-    for (int i = 0; i < quantidade; i++)
+    for (int i = 0; 
+         i < quantidade; 
+         i++)
         {
             System.out.println("Por favor digite 1 para informar se é uma mulher ou 2 se é um homem");
             sexo  =  leitor.nextInt();
 
             System.out.println("Por favor informe a altura");
-            alturaInformada = leitor.nextDouble();
-
+            altura = leitor.nextDouble();
+        
             if (sexo == 1)
             {
-                mulheres++;
+                mulheres++; 
+                double[] alturasArrayMulheres = new altura;
+            
+
             }
             else if(sexo ==2)
             {
                 homens++;
-                totalAlturaHomens = totalAlturaHomens + alturaInformada;
+                totalAlturaHomens = totalAlturaHomens + altura;
             }
             else
             {
                 System.out.println("Digite uma opção válida");
             }
-
-            if (alturaInformada> maiorAltura)
+            if (altura> maiorAltura)
             {
-                maiorAltura = alturaInformada;
+                maiorAltura = altura;
             }
-            if(alturaInformada < menorAltura)
+            else if(altura<menorAltura)
             {
-                menorAltura = alturaInformada;
-            }        
+                menorAltura = altura;
+            }
         }
-        mediaAlturaHomens = totalAlturaHomens / homens;
-      
-     
-        leitor.close();
+            mediaAlturaHomens = totalAlturaHomens / homens;
+
         System.out.println("A maior altura é de " + maiorAltura + "cm e a menor altura é " + menorAltura + " cm");
         System.out.println("A média de altura do grupo de homens é " + mediaAlturaHomens + "cm");
         System.out.println("O total de mulheres do grupo é de " + mulheres + " mulheres");
         
-    }   
+        leitor.close();
+
+    }
+    
 }
