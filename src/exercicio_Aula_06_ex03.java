@@ -24,7 +24,7 @@ public class exercicio_Aula_06_ex03 {
         
         int vetores [] = new int [quantidadeVetores];
 
-        int entre=0, menor=0;
+        int entre=0, menor=0, pares=0, impares=0;
         
         Random geradorVetores = new Random();
 
@@ -42,10 +42,21 @@ public class exercicio_Aula_06_ex03 {
        if (vetores[i] <3 ) {
            menor++;
        }
+       if (vetores[i] % 2 ==0){
+           pares++;
+       }
+       else
+       {
+           impares++;
+       }
        
     }
     System.out.println("O total de numeros entre 3 e 7 é de " + entre);
+
     System.out.println("Existem " + menor + " numeros menores que 3");
+
+    System.out.println("Existem " + pares + " numeros pares e " + impares + " numeros impares");
+
        
     leitor.close();
     }
