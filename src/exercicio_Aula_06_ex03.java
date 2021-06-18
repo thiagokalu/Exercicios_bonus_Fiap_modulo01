@@ -56,13 +56,7 @@ public class exercicio_Aula_06_ex03 {
     System.out.println("Existem " + menor + " numeros menores que 3");
 
     System.out.println("Existem " + pares + " numeros pares e " + impares + " numeros impares");
-
-       
+ 
     leitor.close();
     }
 }
-
-    
-
-
-// notas[i] = leitor.nextDouble();
