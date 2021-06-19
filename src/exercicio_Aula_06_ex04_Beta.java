@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exercicio_Aula_06_ex04 {
+public class exercicio_Aula_06_ex04_Beta {
     // Considere a criação de um vetor de 50 posições chamado
 // vetCarrinhoValores que servirá para armazenar os valores de
 // produtos comprados por um cliente, e outro vetor de 50 posições
